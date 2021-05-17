@@ -35,7 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		7ED551B32651730E00B6E01C /* labTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = labTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7ED551B32651730E00B6E01C /* A1_iOS_Saurav_C0794691.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = A1_iOS_Saurav_C0794691.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7ED551B62651730E00B6E01C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7ED551B82651730E00B6E01C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		7ED551BA2651730E00B6E01C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -89,7 +89,7 @@
 		7ED551B42651730E00B6E01C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7ED551B32651730E00B6E01C /* labTest.app */,
+				7ED551B32651730E00B6E01C /* A1_iOS_Saurav_C0794691.app */,
 				7ED551C92651730F00B6E01C /* labTestTests.xctest */,
 				7ED551D42651730F00B6E01C /* labTestUITests.xctest */,
 			);
@@ -145,7 +145,7 @@
 			);
 			name = labTest;
 			productName = labTest;
-			productReference = 7ED551B32651730E00B6E01C /* labTest.app */;
+			productReference = 7ED551B32651730E00B6E01C /* A1_iOS_Saurav_C0794691.app */;
 			productType = "com.apple.product-type.application";
 		};
 		7ED551C82651730F00B6E01C /* labTestTests */ = {
@@ -441,7 +441,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = mapdemo.labTest;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = A1_iOS_Saurav_C0794691;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -458,7 +458,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = mapdemo.labTest;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = A1_iOS_Saurav_C0794691;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

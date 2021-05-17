@@ -51,7 +51,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate{
         locationMnager.startUpdatingLocation()
         
         
-         addDoubleTap()
+         addTrippleTap()
 
     }
     
@@ -106,14 +106,14 @@ class ViewController: UIViewController, CLLocationManagerDelegate{
 
     
     //MARK: - double tap func
-     func addDoubleTap() {
-         let doubleTap = UITapGestureRecognizer(target: self, action: #selector(doubleTapAction))
-         doubleTap.numberOfTapsRequired = 2
+     func addTrippleTap() {
+         let doubleTap = UITapGestureRecognizer(target: self, action: #selector(trippleTapAction))
+         doubleTap.numberOfTapsRequired = 3
          map.addGestureRecognizer(doubleTap)
          
      }
     
-      @objc func doubleTapAction(sender: UITapGestureRecognizer) {
+      @objc func trippleTapAction(sender: UITapGestureRecognizer) {
             
             // add annotation
             let touchPoint = sender.location(in: map)
@@ -218,7 +218,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate{
                    self.map.addOverlay(route.polyline, level: .aboveRoads)
                    
                     
-                   var midPnt = route.polyline.coordinate
+                 
                    // define the bounding map rect
                    let rect = route.polyline.boundingMapRect
                    self.map.setVisibleMapRect(rect, edgePadding: UIEdgeInsets(top: 100, left: 100, bottom: 100, right: 100), animated: true)
